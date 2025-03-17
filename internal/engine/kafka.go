@@ -36,7 +36,7 @@ func (e *Engine) startKafkaConsumer() {
 	e.wg.Add(1)
 	go func() {
 		defer e.wg.Done()
-		prometheusserver.StartPrometheusServer(":2114", e.ctx)
+		prometheusserver.StartPrometheusServer(":2113", e.ctx)
 	}()
 
 	// Start Kafka consumer

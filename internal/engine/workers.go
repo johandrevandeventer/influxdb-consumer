@@ -64,7 +64,7 @@ func (e *Engine) startWorker() {
 				continue
 			}
 
-			loggerMsg := fmt.Sprintf("InfluxDB -> %s :: %s :: %s :: %s :: %s :: %s :: %s", m.State, m.CustomerName, m.SiteName, m.Controller, m.ControllerSerialNumber, m.DeviceType, m.DeviceSerialNumber)
+			loggerMsg := fmt.Sprintf("InfluxDB -> %s :: %s :: %s :: %s :: %s :: %s :: %s", m.State, m.CustomerName, m.SiteName, m.Controller, m.ControllerIdentifier, m.DeviceType, m.DeviceIdentifier)
 			e.influxDBClient.Logger.Info(loggerMsg)
 			influxDBChannel <- *m
 		}

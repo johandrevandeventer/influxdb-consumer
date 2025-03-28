@@ -172,6 +172,8 @@ github.com/influxdata/line-protocol v0.0.0-20200327222509-2487e7298839 h1:W9WBk7
 github.com/influxdata/line-protocol v0.0.0-20200327222509-2487e7298839/go.mod h1:xaLFMmpvUxqXtVkUJfg9QmT88cDaCJ3ZKgdZ78oO8Qo=
 github.com/johandrevandeventer/influxdbclient v1.0.0 h1:0NWukRsUITEJhll4hnjlEKC4o6Maody2yfu3JDoL6iw=
 github.com/johandrevandeventer/influxdbclient v1.0.0/go.mod h1:1dmhIHuF2bgv7DMm/OSnmIhWPtZDhcnho6kyzY8bPnc=
+github.com/johandrevandeventer/influxdbclient v1.1.0 h1:d0JpYvSbE3QjTLECXwX58dsjTuOLpHaaG1NRrEdXooA=
+github.com/johandrevandeventer/influxdbclient v1.1.0/go.mod h1:1dmhIHuF2bgv7DMm/OSnmIhWPtZDhcnho6kyzY8bPnc=
 github.com/johandrevandeventer/kafkaclient v1.3.1 h1:GT/oEqURP1sHqYKAle9wINhoC4Qg9i2/S5uU50L6L0s=
 github.com/johandrevandeventer/kafkaclient v1.3.1/go.mod h1:nC3UOAF6M53+4eC0JcFkM8xutXWYOuOYfWNE+6/9oR8=
 github.com/johandrevandeventer/logging v1.0.0 h1:1vmQNXFLy2cd5mNLHPr+Tz00gThPJsj2nnIpGu2D4KA=

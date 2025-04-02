@@ -4,7 +4,7 @@ go 1.22.2
 
 require (
 	github.com/johandrevandeventer/influxdbclient v1.1.0
-	github.com/johandrevandeventer/kafkaclient v1.3.1
+	github.com/johandrevandeventer/kafkaclient v1.5.0
 	github.com/johandrevandeventer/logging v1.0.0
 	github.com/johandrevandeventer/persist v1.0.0
 	github.com/johandrevandeventer/splashscreen v1.0.0
